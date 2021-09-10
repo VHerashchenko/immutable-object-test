@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) {
         List<Integer> array = Arrays.asList(1,2,3,4,5,6,7,8);
         String str = "Immutable String";
-        int integer = 5;
+        Integer integer = 5;
 
         DefaultObject defaultObject = new DefaultObject(array);
         ImmutableObject immutableObject = new ImmutableObject(str, integer, defaultObject);
